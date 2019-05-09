@@ -22,7 +22,7 @@ namespace Kangelased
         public string Asukoht { get => asukoht; set => asukoht = value; }
 
 
-        public static int Päästa(int ohus)
+        public virtual int Päästa(int ohus)
         {
             return (int)Math.Round(ohus*.95);
         }
