@@ -35,6 +35,7 @@ namespace Kangelased
                 Console.WriteLine(tegelane);
                 Console.WriteLine("Ohus on 1000 inimest. Päästeti "+tegelane.Päästa(1000));
             }
+            Console.WriteLine("Hello World");
         }
     }
 }
