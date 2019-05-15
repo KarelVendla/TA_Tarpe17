@@ -16,12 +16,17 @@ namespace Kangelased
 
         private string v6ime;
 
-        public Kangelane(string nimi, string asukoht, string superNimi, string v6ime)
+        public Kangelane(string nimi,string superNimi, string v6ime)
+        {
+            this.superNimi = superNimi;
+            this.v6ime = v6ime;
+            this.nimi = nimi;
+        }
+
+        public Kangelane(string nimi, string asukoht)
         {
             this.nimi = nimi;
             this.asukoht = asukoht;
-            this.superNimi = superNimi;
-            this.v6ime = v6ime;
         }
 
         public string Nimi { get => nimi; set => nimi = value; }
@@ -32,6 +37,21 @@ namespace Kangelased
         public virtual int Päästa(int ohus)
         {
             return (int)Math.Round(ohus*.95);
+        }
+
+        public string AnnaNimi()
+        {
+            return Nimi;
+        }
+
+        public string AnnaSuperNimi()
+        {
+            return SuperNimi;
+        }
+
+        public string AnnaV6ime()
+        {
+            return V6ime;
         }
 
         public override string ToString()
