@@ -25,5 +25,10 @@ namespace Kangelased
         {
             return base.ToString() + "ja ta on selles " + osavus + "protsenti osavam kui teised.";
         }
+
+        public override void V6iduK6ne()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

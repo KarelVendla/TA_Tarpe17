@@ -8,6 +8,7 @@ namespace Kangelased
 {
     class Program
     {
+
         static List<Kangelane> Kangelased = new List<Kangelane>();
         static void LaeKangelased(string Failinimi)
         {

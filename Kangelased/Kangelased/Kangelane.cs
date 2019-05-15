@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-    class Kangelane
+    abstract class Kangelane
     {
         private string nimi;
 
@@ -53,6 +53,9 @@ namespace Kangelased
         {
             return V6ime;
         }
+
+
+        public abstract void V6iduK6ne();
 
         public override string ToString()
         {
