@@ -30,18 +30,6 @@ namespace Kangelased
         }
         static void Main(string[] args)
         {
-            HeaKangelane heakangelane = new HeaKangelane("Peeter","Batman","Tugevus");
-
-            string heaKangelane = heakangelane.KasutaV6imet();
-
-            Console.WriteLine(heaKangelane);
-
-
-            PahaKangelane pahakangelane = new PahaKangelane("Karl", "Joker", "Nähtamatu");
-
-            string pahaKangelane = pahakangelane.KasutaV6imet();
-
-            Console.WriteLine(pahaKangelane);
 
         }
     }
