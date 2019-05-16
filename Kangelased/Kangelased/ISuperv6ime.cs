@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-    interface ISuperv6ime
+    public interface ISuperv6ime
     {
+        void KasutaV6imet();
     }
 }
