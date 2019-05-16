@@ -6,9 +6,20 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-    abstract class HeaKangelane : Kangelane
+    class HeaKangelane : Kangelane
     {
+        private string nimi;
+
         public HeaKangelane(string nimi, string superNimi, string v6ime) : base(nimi, superNimi, v6ime)
+        {
+        }
+
+        public string KasutaV6imet()
+        {
+            return "Hea kangelane " + AnnaSuperNimi() + " päästab maailma.";
+        }
+
+        public override void V6iduK6ne()
         {
 
         }

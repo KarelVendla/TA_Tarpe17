@@ -54,7 +54,7 @@ namespace Kangelased
             return V6ime;
         }
 
-        public abstract string V6iduK6ne();
+        public abstract void V6iduK6ne();
 
         public override string ToString()
         {
