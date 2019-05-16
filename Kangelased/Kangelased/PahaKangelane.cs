@@ -13,9 +13,9 @@ namespace Kangelased
 
         }
 
-        public string KasutaV6imet()
+        public override void KasutaV6imet()
         {
-            return "Paha kangelane " + AnnaSuperNimi() + " püüab hävitada maailma.";
+            Console.WriteLine($"Paha kangelane {AnnaSuperNimi()} püüab hävitada maailma.");
         }
 
         public override void V6iduK6ne()

@@ -64,6 +64,6 @@ namespace Kangelased
             return Nimi + " hoiab " + Asukoht + " turvalisena .";
         }
 
-        
+        abstract public void KasutaV6imet();
     }
 }

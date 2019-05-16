@@ -14,9 +14,9 @@ namespace Kangelased
         {
         }
 
-        public string KasutaV6imet()
+        public override void KasutaV6imet()
         {
-            return "Hea kangelane " + AnnaSuperNimi() + " päästab maailma.";
+            Console.WriteLine($"Hea kangelane {AnnaSuperNimi()} päästab maailma.");
         }
 
         public override void V6iduK6ne()
