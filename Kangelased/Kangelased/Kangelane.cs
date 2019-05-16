@@ -54,8 +54,11 @@ namespace Kangelased
             return V6ime;
         }
 
+        private Random r = new Random();
         public int rynnak()
         {
+            
+            return r.Next();
         }
         public abstract void V6iduK6ne();
 
