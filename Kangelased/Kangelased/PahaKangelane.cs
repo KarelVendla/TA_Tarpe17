@@ -20,7 +20,7 @@ namespace Kangelased
 
         public override void V6iduK6ne()
         {
- 
+            Console.WriteLine("Tänaseks aitab.");
         }
     }
 }
