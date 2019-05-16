@@ -8,7 +8,6 @@ namespace Kangelased
 {
     class Program
     {
-
         static List<Kangelane> Kangelased = new List<Kangelane>();
         static void LaeKangelased(string Failinimi)
         {
@@ -21,10 +20,10 @@ namespace Kangelased
                 string asukoht = nimiKoht[1].Trim();
                 if (nimi.EndsWith("*"))
                 {
-                    Kangelased.Add(new SuperKangelane(nimi.Trim(new char[] { '*' }), asukoht));
+                   // Kangelased.Add(new SuperKangelane(nimi.Trim(new char[] { '*' }), asukoht));
                 } else
                 {
-                    Kangelased.Add(new Kangelane(nimi, asukoht));
+                  //  Kangelased.Add(new Kangelane(nimi, asukoht));
                 }
             }
         }
