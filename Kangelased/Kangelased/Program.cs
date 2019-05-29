@@ -47,6 +47,7 @@ namespace Kangelased
                 pahakangelane.V6iduK6ne();
             }
 
+
         }
     }
 }
