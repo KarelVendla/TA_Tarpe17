@@ -54,11 +54,16 @@ namespace Kangelased
             return V6ime;
         }
 
-        public abstract string V6iduK6ne();
+        public int rynnak()
+        {
+        }
+        public abstract void V6iduK6ne();
 
         public override string ToString()
         {
             return Nimi + " hoiab " + Asukoht + " turvalisena .";
         }
+
+        abstract public void KasutaV6imet();
     }
 }
