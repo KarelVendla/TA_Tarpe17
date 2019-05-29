@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-    class SuperKangelane : Kangelane
+    abstract class SuperKangelane : Kangelane
     {
         private double osavus;
 
@@ -25,5 +25,6 @@ namespace Kangelased
         {
             return base.ToString() + "ja ta on selles " + osavus + "protsenti osavam kui teised.";
         }
+
     }
 }
